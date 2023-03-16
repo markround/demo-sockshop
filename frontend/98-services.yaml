@@ -12,7 +12,7 @@ metadata:
   name: catalogue
 subsets:
 - addresses:
-  - ip: 34.154.177.124
+  - ip: 34.154.92.13
   ports:
   - port: 443
 ---
@@ -29,7 +29,7 @@ metadata:
   name: carts
 subsets:
 - addresses:
-  - ip: 34.154.177.124
+  - ip: 34.154.92.13
   ports:
   - port: 443
 ---
@@ -46,7 +46,7 @@ metadata:
   name: orders
 subsets:
 - addresses:
-  - ip: 34.154.177.124
+  - ip: 34.154.92.13
   ports:
   - port: 443
 ---
@@ -63,6 +63,6 @@ metadata:
   name: user
 subsets:
 - addresses:
-  - ip: 34.154.177.124
+  - ip: 34.154.92.13
   ports:
   - port: 443

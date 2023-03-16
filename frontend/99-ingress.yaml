@@ -8,7 +8,7 @@ metadata:
     traefik.ingress.kubernetes.io/router.tls: "true"
 spec:
   rules:
-  - host: front-end.test.dkp.lab.mark.eek
+  - host: front-end.pov.tim
     http:
       paths:
       - path: /
