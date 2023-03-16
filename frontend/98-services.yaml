@@ -1,0 +1,68 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: catalogue
+spec:
+  clusterIP: None
+---
+kind: Endpoints
+apiVersion: v1
+metadata:
+  name: catalogue
+subsets:
+- addresses:
+  - ip: 34.154.177.124
+  ports:
+  - port: 443
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: carts
+spec:
+  clusterIP: None
+---
+kind: Endpoints
+apiVersion: v1
+metadata:
+  name: carts
+subsets:
+- addresses:
+  - ip: 34.154.177.124
+  ports:
+  - port: 443
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: orders
+spec:
+  clusterIP: None
+---
+kind: Endpoints
+apiVersion: v1
+metadata:
+  name: orders
+subsets:
+- addresses:
+  - ip: 34.154.177.124
+  ports:
+  - port: 443
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: user
+spec:
+  clusterIP: None
+---
+kind: Endpoints
+apiVersion: v1
+metadata:
+  name: user
+subsets:
+- addresses:
+  - ip: 34.154.177.124
+  ports:
+  - port: 443
